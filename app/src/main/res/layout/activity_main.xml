@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/section300_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/tuesday_text_view"
+        android:textSize="32sp"
+        android:text="Section 300" />
+
+    <TextView
+        android:id="@+id/section310_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/tuesday_text_view"
+        android:textSize="32sp"
+        android:text="Section 310" />
+
+    <TextView
+        android:id="@+id/thursday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="32sp"
+        android:text="Thursday" />
+
+    <TextView
+        android:id="@+id/mad9132_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:text="MAD9132" />
+
+    <TextView
+        android:id="@+id/hello_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/mad9132_text_view"
+        android:textSize="32sp"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/monday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/thursday_text_view"
+        android:textSize="32sp"
+        android:text="Monday" />
+
+    <TextView
+        android:id="@+id/tuesday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/wednesday_text_view"
+        android:textSize="32sp"
+        android:text="Tuesday" />
+
+    <TextView
+        android:id="@+id/wednesday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Wednesday"
+        android:textSize="32sp" />
+
+</RelativeLayout>
